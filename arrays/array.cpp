@@ -8,8 +8,9 @@ int main()
 	int count_of_elements=0;
 
 	//inputs
-	cout<<"Enter count of elemetes"<<"\n";
+	cout<<"Enter count of elements:";
 	cin>>count_of_elements;
+	cout<<"\n";
 
 	//validation
 	if (count_of_elements<=0){
@@ -18,9 +19,23 @@ int main()
 
 	//calculation
 
+	int *pointer_array=NULL;
+	pointer_array=new int[count_of_elements];
+
+	cout<<"Enter each element"<<"\n";
+	for (int i=0;i<count_of_elements;i++){
+		cout<<"element["<<i<<"]=";
+		cin>>*((double*)pointer_array+i);
+	}
 
 	//output
+	cout<<"Elements: ";
+	for (int i=0;i<count_of_elements;i++)
+		cout<<*((double*)pointer_array+i)<<" ";
 
+
+	//memory free
+	delete [] pointer_array;
 
 	getchar();
 	return 0;
