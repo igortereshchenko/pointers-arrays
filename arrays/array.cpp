@@ -19,7 +19,7 @@ int main()
 
 	//calculation
 
-	int *pointer_array=NULL;
+	void *pointer_array=NULL;
 	pointer_array=new int[count_of_elements];
 
 	cout<<"Enter each element"<<"\n";
@@ -35,7 +35,7 @@ int main()
 
 
 	//memory free
-	delete [] pointer_array;
+	delete [] (int*)pointer_array;
 
 	getchar();
 	return 0;
