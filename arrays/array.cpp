@@ -25,18 +25,19 @@ int main()
 	cout<<"Enter each element"<<"\n";
 	for (int i=0;i<count_of_elements;i++){
 		cout<<"element["<<i<<"]=";
-		cin>>*((double*)pointer_array+i);
+		cin>>*((int*)pointer_array+i);
 	}
 
 	//output
 	cout<<"Elements: ";
 	for (int i=0;i<count_of_elements;i++)
-		cout<<*((double*)pointer_array+i)<<" ";
+		cout<<*((int*)pointer_array+i)<<" ";
 
 
 	//memory free
 	delete [] (int*)pointer_array;
 
+	getchar();
 	getchar();
 	return 0;
 
