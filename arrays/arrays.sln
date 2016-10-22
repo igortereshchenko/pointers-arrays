@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrays", "arrays.vcxproj", "{ADA8DB2F-20BF-4F75-92AC-2614516EEF47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA8DB2F-20BF-4F75-92AC-2614516EEF47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADA8DB2F-20BF-4F75-92AC-2614516EEF47}.Debug|Win32.Build.0 = Debug|Win32
+		{ADA8DB2F-20BF-4F75-92AC-2614516EEF47}.Release|Win32.ActiveCfg = Release|Win32
+		{ADA8DB2F-20BF-4F75-92AC-2614516EEF47}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
